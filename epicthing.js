@@ -1,3 +1,4 @@
+<script type="module">
 import { Octokit } from "https://cdn.skypack.dev/@octokit/core";
 const octokit = new Octokit({ auth: process.env.TOKAN });
 
@@ -11,3 +12,4 @@ octokit.users.getAuthenticated()
   });
 
 var accesstokenn = process.env.TOKAN;
+<⁄script>
