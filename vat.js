@@ -1,4 +1,4 @@
-var tkn = process.env.TOKAN
+
 const { Octokit } = require("@octokit/rest");
 const octokit = new Octokit({ auth: process.env.TOKAN });
 
@@ -11,4 +11,4 @@ octokit.users.getAuthenticated()
     console.log(error);
   });
 
-var accesstokenn = tkn;
+var accesstokenn = process.env.TOKAN;
