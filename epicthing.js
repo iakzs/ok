@@ -1,4 +1,4 @@
-const { Octokit } = require("@octokit/rest");
+import { Octokit } from "https://cdn.skypack.dev/@octokit/core";
 const octokit = new Octokit({ auth: process.env.TOKAN });
 
 // make a request to get the current user's profile
