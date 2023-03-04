@@ -1,5 +1,3 @@
-const accessToken = process.env.TOKAN;
-
 fetch('https://neededaafttwl.netlify.app/vat.js', {
   headers: {
     'Authorization': `Bearer ${accessToken}`
